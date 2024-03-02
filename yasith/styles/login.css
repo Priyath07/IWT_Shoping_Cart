@@ -1,0 +1,55 @@
+/* Style the login */
+div.login
+{
+	  margin: 70px 0px 10px 500px;
+}
+
+/* Style the login container */
+div.login-container
+{
+	margin: 5px -8px 10px -10px;
+	padding: 10px;
+    height: 600px;
+	
+}
+/* Style the title */
+#title
+{
+	font-size: 40px;
+	padding-left: 200px;
+	margin: 0px 0px 5s0px 0px;
+}
+/* Style the input label */
+.label, #id-label, #password-label
+{
+    font-size: 25px;
+}
+/* Style the inputs */
+.inputs, #email-input, #password-input
+{
+    width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0px 40px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+/* Style the submit button */
+#submit
+{
+    width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Garamond, serif;
+  font-size: 20px;
+}
+#submit:hover
+{
+    background-color: #45a049;
+}

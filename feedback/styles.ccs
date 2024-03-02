@@ -1,0 +1,126 @@
+* {
+  		box-sizing: border-box;
+	}
+
+
+	body{ 
+		margin: 0px;
+		font-family: 'Poppins';
+		font-size: 16px;
+		
+	}
+
+
+	body> div{
+		display: flex;
+		flex-flow: row wrap;
+		
+	}
+
+
+	body> div> header, main, nav, footer{
+		background-color:white;
+		margin:5px;
+		padding: 20px;
+		border-radius:8px;
+
+
+	}
+
+
+	body> div> header{
+		order:1;
+		height:200px;
+		flex: 0 1 100%;;
+
+	}
+
+
+
+	body> div> nav{
+		order:2;
+		flex
+		flex: 0 1 200px;
+		flex-direction: row;
+		
+	}
+
+
+	body> div> main{
+		order:3;
+		flex: 1;
+		flex-direction: row;
+		
+	}
+
+
+	body> div> footer{
+		order:5;
+		flex: 0 1 100%;
+		
+		
+	}
+
+
+	.header{
+		background-color: #CED6E0;
+		margin:0px;
+
+	}
+
+	.footer{
+		background-color: #CED6E0;
+		margin:0px;
+		
+
+	}
+
+	main .container .text{
+		font-size: 30px;
+		text-align: center;
+		font-weight: bold;
+		letter-spacing: 2px;
+		padding-bottom: 40px;
+		
+		
+
+	}
+
+	.container .card{
+		background-color:#FEEDE9;
+		border:none;
+		border-radius: 20px;
+		padding:20px;
+		width: 100%;
+		box-shadow: 0 2px 5px;
+
+	}
+
+	textarea{
+		width:100%;
+		border-radius:10px;
+		background-color: ;
+		padding: 20px;
+	}
+
+	@media (max-width: 800px) {
+  		body> div> nav, main{
+			flex-direction: column;
+			flex: 100%;
+ 		}
+	}
+
+	button{
+		width:100px;
+		background-color:
+		border-radius: 5px;
+
+	}
+
+	button:hover{
+		width:100px;
+		letter-spacing:2px;
+		background-color:
+		border-radius: 5px;
+
+	}

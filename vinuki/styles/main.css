@@ -1,0 +1,63 @@
+/* Style the icon */
+div.header #icon {
+	border: 1px solid #000;
+	margin: 10px 0px 0px 12px;
+	padding: 10px;
+}
+div.header{
+    display:flex;
+    align-items:left;
+    justify-content: left;
+}
+div.image{
+    flex-basis: 40%;
+}
+div.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.text{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+div.header a:link, a:visited {
+    color:black;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Garamond, serif;
+  }
+div.header a:hover, a:active {
+    background-color: red;
+  }
+
+/* Style the navigation bar */
+.footer .nav2 {
+	
+	color: black;
+  
+	font-family: Garamond, serif;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+/* Style the home, land, search and contact */
+.footer #home, .footer #aboutus, .footer #contact{
+	margin: 30px 30px 0px 10px;
+	padding: 5px;
+    text-align: center;
+    margin:auto;
+    float:none;
+     
+}
+/*Style for footer image*/
+.footer #icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

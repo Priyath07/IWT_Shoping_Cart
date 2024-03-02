@@ -1,0 +1,126 @@
+<style>
+*{
+    margin: 0rem;
+    padding: 0rem;
+    
+}
+:root{
+    --dark-blue:hsl(223, 47%, 23%);
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    
+}
+
+body{
+    background-image: url("images/background-desktop.svg");
+    background-color: var(--Pale-blue);
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container{
+    
+    display:block;
+    margin: auto;
+    width: 25rem;
+    height: 63vh;
+    background-color: var(--Very-pale-blue);
+    border: 1px solid var(--Pale-blue);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 5rem;
+    
+   
+}
+.hero-img{
+    display: block;
+    margin: auto;
+    margin-top: 6.5rem;
+    width: 25rem;
+     
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    
+    
+}
+.hero-heading{
+    text-align: center;
+    padding: 2.5rem 2rem 1.5rem 2rem;
+    font-weight: 900;
+    color: var(--dark-blue);
+    
+}
+.text{
+    font-size:16px;
+    text-align: center;
+    margin: 0rem 3.3rem;
+    color:var(--Desaturated-blue);
+    padding: 0rem 0.5rem 0.5rem 0.5rem;
+}
+.small-container{
+    display:block;
+    margin: auto;
+    width: 19rem;
+    height:15vh;
+    background-color: var(--Very-pale-blue);
+    border-radius: 1rem;
+    
+}
+.small-container_img{
+    display: block;
+    margin: 1rem 0.5rem 1rem 1rem;
+    float:left;
+}
+.text1{
+    display: block;
+    color:var(--dark-blue);
+    font-weight: 700;
+    font-size: 16px;
+    padding:1.2rem 0rem 0rem 5rem;
+    text-align: left;  
+   
+    
+    
+}
+.text2{
+    display:block;
+    color:var(--Desaturated-blue);
+    font-size:16px;
+    
+    padding:0.3rem 0rem 0rem 5rem;
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}  
+ 
+  
+body {
+    font-family: 'Poppins';font-size: 16px;
+    }
+
+.bolded { font-weight: bold; }
+
+
+hr.new1 {
+  border-top: 3px solid;
+  width: 100%;
+}
+</style>

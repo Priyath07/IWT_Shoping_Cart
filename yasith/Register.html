@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type ="text/css" href="styles/Register.css">
+        <link rel = "stylesheet" type ="text/css" href="styles/main.css">
+        
+        <link rel = "icon" href = "images/logo.png">
+        <title>Register - Sell It</title>
+    </head>
+
+    <body>
+        <!--Header start-->
+        <div class = "header">
+            <div class = "image">
+                <image id = "icon" alt ="Sell It logo" src = "images/logo.png" width = "100px" height = "auto"/>
+            </div>
+            <div class = "text">
+                <a class ="nav" href ="login.html"><b>Already a Member? Login</b></a>
+            </div>
+         </div>
+         <hr>
+         <!--Header End-->
+         
+        
+         <!--Content Start-->
+         <div class = "Content">
+           
+            <!--Sign Up start-->
+            <div class ="Signup-container">
+                <span id="signup">&nbsp; </span>
+                <div class="signup">
+                <form name="signup" action="register.php" method="post">
+                <label id="title">Sign Up</label>
+                <br/> <br/> <br/>
+
+          <label id="name-Label">Full Name<br></label>
+          <input type="text" id="name-input" name="name-input" placeholder="Full Name.." required>
+
+          <label id="email-Label"><br>Email<br></label>
+          <input type="email" id="email-input" name="email-input" placeholder="Email.." required>
+          
+          <label id="Username-Label"><br>User Name<br></label>
+          <input type="text" id="Username-input" name="Username-input" placeholder="User Name.." required>
+
+          <label id="birth-Label"><br>Birth Date<br></label>
+          <input type="date" id="birth-input" name="birth-input" placeholder="" required>
+
+          <label id="password-Label"><br>Password<br></label>
+          <input type="password" id="password-input" name="password-input" placeholder="Password.." required>
+
+          <label id="Verifypassword-Label"><br>Verify Password<br></label>
+          <input type="password" id="Verifypassword-input" name="Verifypassword-input" placeholder="Verify Password.." required>
+
+
+          
+          <br/>
+          <input id="submit" type="submit" value="Create Account">
+        </form>
+
+            </div>
+            <!--Sign up End-->
+         </div>
+         <!--Content End-->
+
+         
+         <!--Footer Start-->
+         <hr>
+         <div class = "footer">
+            <img id ="icon" alt = "Sell It logo" src ="images/logo.png" width = "150px" height = "auto">
+            <center><a class="nav" id="home" href="index.html"> Home| </a>
+            <a class="nav" id="aboutus"  href="aboutus.php">About Us|</a>
+            <a class="nav" id="contact" href="index.php#contact"> Contact Us </a></center>
+        </div>
+         <!--Footer end-->
+    </body>
+</html>

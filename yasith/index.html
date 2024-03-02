@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type ="text/css" href="styles\main.css">
+        <link rel = "stylesheet" type ="text/css" href="styles\index.css">
+        
+        
+
+        <link rel = "icon" href = "images/logo.png">
+        <title>Sell It</title>
+       
+    </head>
+    <body>
+        <!--Header Start-->
+        <div class = "header">
+            <div class ="icon1">
+               <a class ="account" href ="Register.html"><image id = "account" alt = "Account icon" src ="images/account.jpg" width = "50px" height = "auto"/></a> 
+            </div>
+            <div class = "logo">
+                <image id ="logo" alt = "sell it logo" src ="images/logo.png" width = "100px" height ="auto"/>
+            </div>
+           <!-- <div class = "search">
+                <input type = "text" placeholder="Search">
+            </div>-->
+            <div class = "icon2">
+                <a class = cart href =""><image id = "cart" alt = "shopping cart logo" src = "images/cart.png" width = "50px" height = "auto" /></a>
+            </div>
+        </div>
+        <hr>
+        <!--Header End-->
+
+        <!--Slide show Reference W3 school-->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images/slide5.png" style="width:100%">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images/slide2.jpg" style="width:100%">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images/slide4.jpg" style="width:100%">
+              
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+            }
+             slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 4000); // Change image every 4 seconds
+            }
+        </script>
+        <!--Slide show end-->
+         <!--Footer Start-->
+         <hr>
+         <div class = "footer">
+            <img id ="icon" alt = "Sell It logo" src ="images/logo.png" width = "100px" height = "auto">
+            <center><a class="nav" id="home" href="index.html"> Home| </a>
+            <a class="nav" id="aboutus"  href="aboutus.php">About Us|</a>
+            <a class="nav" id="contact" href="index.php#contact"> Contact Us </a></center>
+        </div>
+         <!--Footer end-->
+            
+           
+    </body>
+</html>

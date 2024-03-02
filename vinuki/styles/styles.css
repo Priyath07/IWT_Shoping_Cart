@@ -1,0 +1,188 @@
+
+* {
+  		box-sizing: border-box;
+	}
+
+
+	body{ 
+		margin: 0px;
+		font-family: 'Poppins';
+		font-size: 16px;
+	}
+
+
+	body> div{
+		display: flex;
+		flex-flow: row wrap;
+		
+	}
+
+
+	body> div> header, main, nav{
+		background-color:white;
+		margin:5px;
+		padding: 20px;
+		border-radius:8px;
+
+
+	}
+
+
+	body> div> header{
+		order:1;
+		height:200px;
+		flex: 0 1 100%;;
+
+	}
+
+
+
+	body> div> nav{
+		order:2;
+		flex
+		flex: 0 1 200px;
+		flex-direction: row;
+		
+	}
+
+
+	body> div> main{
+		order:3;
+		flex: 1;
+		flex-direction: row;
+		
+	}
+
+
+	
+	
+
+	
+
+	.searchbar input[type=text]{
+		
+		width: 90%;
+		padding: 10px;
+		border-radius:24px;
+		text-align: left;
+
+		
+  	}
+
+	.searchbar{
+		
+		width: 100%;
+		padding: 10px;
+		border-radius:24px;
+		color:#333333 ;
+		text-align: left;
+		
+		
+		
+  	}
+
+
+	
+	#myInput {
+  		
+  		background-position: 10px 12px;
+  		background-repeat: no-repeat;
+  		width: 100%;
+  		padding: 12px 40px 12px 40px;
+		font-size: 16px;
+  		margin-bottom:16px;
+		border-color: ;
+
+	}
+
+
+	#myUnL {
+ 		list-style-type: none;
+  		padding: 0;
+  		margin: 0;
+
+	}
+
+
+	#myUnL li a {
+		padding: 12px;
+		border: 1px solid #ddd;
+ 	 	margin-top: -1px;
+  		background-color: #f6f6f6;
+  
+		font-size: 18px;
+  		text-decoration: none;
+  		color: black;
+  		display: block;
+
+	}
+
+
+	#myUnL li a:hover:not(.header) {
+		background-color: #E7E5D9;
+		color:#333333;
+		font-weight: bold;
+
+
+	}
+
+
+	#droplist{
+		width: auto;
+		min-width:140px;
+		
+	}
+
+
+	#droplist>details>summary{
+		background:white;
+		margin:6px;
+		padding:8px;	
+		
+	}
+
+
+	#droplist>details>summary:hover{
+		background-color:#E7E5D9;
+		
+	}
+
+
+	#droplist>details>a{
+		display:block;
+		text-decoration: none;
+		color: black;
+		font-size:13px;
+		margin:3px 6px 3px 18px;
+		padding: 4px;
+		
+		
+	}
+
+
+	#droplist>details>a:hover{
+		display:block;
+		color: #333333;
+		text-decoration: none;
+		font-size:13px;
+		font-weight: bold;
+
+		margin:3px 6px 3px 18px;
+		padding: 4px;
+		background: #F0E4D7;
+		
+	}
+
+
+	#droplist>details>a:before{
+		content: "-";
+		
+	}
+
+
+	@media (max-width: 800px) {
+  		body> div> nav, main{
+			flex-direction: column;
+			flex: 100%;
+ 		}
+	}

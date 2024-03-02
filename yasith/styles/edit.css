@@ -1,0 +1,91 @@
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  /* Style the edit profile container */
+div.editProf-container
+{
+	margin: 5px -8px 10px -10px;
+	padding: 10px;
+	height: auto ;
+}
+/* Style the edit profile */
+div.editProf
+{
+	  margin: 65px 0px 65px 500px;
+}
+/* Style the edit profile container */
+div.editProf-container
+{
+	margin: 0px -8px 10px -10px;
+	padding: 10px 10px 10px 10px;
+	height: auto;
+}
+/* Style the delete profile */
+div.dltProf
+{
+	margin: 30px 0px 30px 500px;
+}
+  /* Style the input label */
+.label,#birth-Label, #name-Label,#Username-Label, #password-Label, #email-Label, #name-Label,#Verifypassword-Label
+{
+	font-size: 20px;
+}
+
+
+/* Style the inputs */
+.inputs, #name-input, #password-input, #email-input,#Username-input,#birth-input,#Verifypassword-input,#username-input-4dlt, #password-input-4dlt
+{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0px 40px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+/* Style the submit button */
+#submit
+{
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Garamond, serif;
+  font-size: 20px;
+}
+
+#submit:hover
+{
+  background-color: #45a049;
+}
